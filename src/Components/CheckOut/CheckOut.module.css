@@ -1,0 +1,15 @@
+.msgBox {
+  display: none;
+}
+
+.msgBoxD {
+  border-radius: 2px;
+  padding: 2rem 3rem;
+  box-shadow: 5px 5px 5px 5px #999;
+  position: fixed;
+  right: 20px;
+}
+.msgBoxD p {
+  font-size: 20px;
+  margin: 0.75rem 0;
+}
