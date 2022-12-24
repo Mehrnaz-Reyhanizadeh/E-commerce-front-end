@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# E-commerce-front-end (test project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+E-commerce front-end project using react.js
 
 ## Available Scripts
 
