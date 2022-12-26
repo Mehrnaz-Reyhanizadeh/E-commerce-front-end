@@ -21,11 +21,11 @@ const CheckOut = () => {
     <>
       <div className="row mx-0 justify-content-between mt-5 pt-5">
         <div className="col-lg-8">
-          {state.selectedItem.map((product, index) => (
+          {state.selectedItem.map((product) => (
             <CheckOutCart
               productData={product}
               contextValue={{ state, dispatch }}
-              key={index}
+              key={product._id}
             />
           ))}
         </div>

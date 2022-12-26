@@ -56,7 +56,6 @@ const CommentContent = (props) => {
   };
   const cancelUpdateHandler = async () => {
     cancelUpdateref.current.innerText = commentContent;
-    console.log(commentContent);
     setComments(await getComments(productId, token));
     setUpdateAble(false);
   };
